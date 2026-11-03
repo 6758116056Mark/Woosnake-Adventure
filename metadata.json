@@ -1,0 +1,6 @@
+{
+  "name": "Avatar Snake: The Dude Chase",
+  "description": "An arcade snake game where Avatar Dude hunts Polo Apple Dude with glowing trails, powerups, and juicy physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #090d16;
+    color: #f1f5f9;
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-game {
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Prevent iOS drag-to-refresh and selection during gameplay */
+canvas {
+  touch-action: none;
+}
